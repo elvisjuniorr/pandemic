@@ -141,10 +141,50 @@ p {
   font-size: 1.15rem;
 }
 
-
-
-
 .bot{
   display: flex;
   justify-content: space-between;
+}
+
+.hands {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 26rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.cards > div{
+  display: flex;
+  flex-direction: column;
+  width: 6rem;
+  background-color: #d5d2c4;
+  height: 8rem;
+  border-radius: 0.25rem;
+  justify-content: space-between;
+}
+
+.cards > div > p:first-of-type{
+  color: black;
+}
+
+.cards > div > p:last-of-type{
+  text-align: end;
+  color: black;
+}
+
+.cards > div > div{
+  display: flex;
+  width:5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  height: 4rem;
+  background-color: #003B40;
+  justify-content: center;
+  align-items: center;
 }

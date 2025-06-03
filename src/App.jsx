@@ -59,42 +59,42 @@ function App() {
           </div>
         </div>
         <div className='bot'>
-          <section>
+          <section className='hands'>
             <p>HANDS</p>
-            <section>
+            <section className='cards'>
               <div>
                 <p>Atlanta</p>
-                <GiWorld />
+                <div><GiWorld style={{color:'#0A5C5D', width:"3.5rem", height:"3.5rem"}}/></div>               
                 <p>1</p>
               </div>
               <div>
                 <p>Atlanta</p>
-                <GiWorld />
+                <div><GiWorld style={{color:'#0A5C5D', width:"3.5rem", height:"3.5rem"}}/></div>         
                 <p>1</p>
               </div>
               <div>
                 <p>Atlanta</p>
-                <GiWorld />
+                <div><GiWorld style={{color:'#0A5C5D', width:"3.5rem", height:"3.5rem"}}/></div>       
                 <p>1</p>
               </div>
               <div>
                 <p>Atlanta</p>
-                <GiWorld />
+                <div><GiWorld style={{color:'#0A5C5D', width:"3.5rem", height:"3.5rem"}}/></div>        
                 <p>1</p>
               </div>
               <div>
                 <p>Atlanta</p>
-                <GiWorld />
+                <div><GiWorld style={{color:'#0A5C5D', width:"3.5rem", height:"3.5rem"}}/></div>        
                 <p>1</p>
               </div>
               <div>
                 <p>Atlanta</p>
-                <GiWorld />
+                <div><GiWorld style={{color:'#0A5C5D', width:"3.5rem", height:"3.5rem"}}/></div>        
                 <p>1</p>
               </div>
               <div>
                 <p>Atlanta</p>
-                <GiWorld />
+                <div><GiWorld style={{color:'#0A5C5D', width:"3.5rem", height:"3.5rem"}}/></div>        
                 <p>1</p>
               </div>
             </section>
