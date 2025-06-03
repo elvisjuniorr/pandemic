@@ -13,7 +13,7 @@ function App() {
     <>
       <div>
         <div className='top'>
-          <div>
+          <div className='player-disease'>
             <section className='player'>
               <p>PLAYER</p>
               <p>1</p>
@@ -33,9 +33,9 @@ function App() {
               </section>
             </section>
           </div>
-          <div>
+          <div className='center'>
             <p>Turn 1</p>
-            <section>
+            <section className='map'>
               <img src="./assets/map.svg"/>
             </section>
           </div>
