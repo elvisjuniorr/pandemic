@@ -40,15 +40,15 @@ function App() {
             </section>
           </div>
           <div>
-            <section>
+            <section className='infectionRate'>
               <p>INFECTION RATE</p>
               <p>2</p>
             </section>
-            <section>
+            <section className='outbreaks'>
               <p>OUTBREAKS</p>
               <p>4</p>
             </section>
-            <section>
+            <section className='instructions'>
               <p>*********PLAY*********</p>
               <p>1. Do 4 actions</p>
               <p>2. Draw 2 cards</p>

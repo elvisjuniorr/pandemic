@@ -51,6 +51,7 @@ p {
   justify-content: center;
   gap: 0.5rem;
   border: #033539 solid 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .disease > section{
@@ -67,6 +68,33 @@ p {
 .center > p{
   font-size: 1.5rem;
 }
+
+.infectionRate {
+  background-color: #003A3C;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: #0A5C5D solid 0.5rem;
+  width: 14rem;
+  height: 9rem;
+  gap: 1rem;
+  border-radius: 0.5rem;
+}
+
+.infectionRate > p:last-of-type{
+  border-radius: 6rem;
+  width: 6rem;
+  height: 6rem;
+  background-color: #0A5C5D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+
 
 .bot{
   display: flex;
