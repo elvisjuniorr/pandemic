@@ -49,7 +49,7 @@ function App() {
               <p>4</p>
             </section>
             <section className='instructions'>
-              <p>*********PLAY*********</p>
+              <p>*****PLAY*****</p>
               <p>1. Do 4 actions</p>
               <p>2. Draw 2 cards</p>
               <p>*Resolve any epidemics</p>

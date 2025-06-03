@@ -125,6 +125,22 @@ p {
   font-size: 4rem;
 }
 
+.instructions {
+  background-color: #003A3C;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  border: rgb(212, 15, 15) solid 0.5rem;
+  width: 14rem;
+  height: 9rem;
+  border-radius: 0.5rem;
+}
+
+.instructions > p {
+  font-size: 1.15rem;
+}
+
 
 
 
