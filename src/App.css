@@ -212,3 +212,21 @@ p {
   align-items: center;
   justify-content: center;
 }
+
+.playerDiscard {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.playerDiscard > section{
+  height: 15.5rem;
+  background-color: #003A3C;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: #0A5C5D solid 0.5rem;
+  width: 13rem;
+  border-radius: 0.5rem;
+}

@@ -112,13 +112,17 @@ function App() {
               <p>DISCOVER A CURE</p>
             </section>
           </section>
-          <section>
-            <GiElectric />
+          <section className='playerDiscard'>           
             <p>PLAYER DISCARD PILE</p>
+            <section>
+              <GiElectric style={{color:'#0A5C5D', width:"10rem", height:"10rem"}}/>
+            </section>
           </section>
-          <section>
-            <GiErlenmeyer />
+          <section >           
             <p>INFECTION DISCARD PILE</p>
+            <section>
+              <GiErlenmeyer />
+            </section>
           </section>
           <section>
             <img src="./assets/role.jpg"/>
