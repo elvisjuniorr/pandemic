@@ -18,7 +18,7 @@ function App() {
               <p>PLAYER</p>
               <p>1</p>
             </section>
-            <section>
+            <section className='disease'>
               <section>
                 <FaVirusCovid style={{color:'yellow', width:"2rem", height:"2rem"}}/>
                 <FaVirusCovid style={{color:'red', width:"2rem", height:"2rem"}}/>
