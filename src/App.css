@@ -15,6 +15,23 @@ p {
   justify-content: space-between;
 }
 
+.player {
+  border-radius: 5rem;
+  width: 8rem;
+  height: 8rem;
+  background-color: #0A5C5D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: #033539 solid 0.5rem;
+  gap: 0.5rem;
+}
+
+.player > p{
+  font-size: 1.5rem;
+}
+
 .bot{
   display: flex;
   justify-content: space-between;

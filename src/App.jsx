@@ -14,7 +14,7 @@ function App() {
       <div>
         <div className='top'>
           <div>
-            <section>
+            <section className='player'>
               <p>PLAYER</p>
               <p>1</p>
             </section>
