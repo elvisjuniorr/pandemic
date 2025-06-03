@@ -99,7 +99,7 @@ function App() {
               </div>
             </section>
           </section>
-          <section>
+          <section className='actions'>
             <p>ACTIONS</p>
             <section>
               <p>DRIVE/FERRY</p>
