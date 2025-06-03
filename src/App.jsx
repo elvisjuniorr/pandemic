@@ -39,7 +39,7 @@ function App() {
               <img src="./assets/map.svg"/>
             </section>
           </div>
-          <div>
+          <div className='center-right'>
             <section className='infectionRate'>
               <p>INFECTION RATE</p>
               <p>2</p>
