@@ -118,10 +118,10 @@ function App() {
               <GiElectric style={{color:'#0A5C5D', width:"10rem", height:"10rem"}}/>
             </section>
           </section>
-          <section >           
+          <section className='infectionDiscard'>           
             <p>INFECTION DISCARD PILE</p>
             <section>
-              <GiErlenmeyer />
+              <GiErlenmeyer style={{color:'#0A5C5D', width:"10rem", height:"10rem"}}/>
             </section>
           </section>
           <section>
