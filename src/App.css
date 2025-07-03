@@ -270,3 +270,72 @@ p {
 .role > section > img {
   height: 15rem;
 }
+
+.location-info {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.location-info p {
+  margin: 2px 0;
+}
+
+.actions section p:hover {
+  background-color: #f0f0f0;
+  transition: background-color 0.2s;
+}
+
+.game-message {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+
+.map-container {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+
+.map-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.dynamic-map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.city-node {
+  position: absolute;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-size: 10px;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.city-node.active {
+  border: 2px solid gold;
+  box-shadow: 0 0 10px gold;
+}
