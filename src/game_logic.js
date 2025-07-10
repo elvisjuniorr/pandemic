@@ -258,3 +258,12 @@ class Board {
             [array[i], array[j]] = [array[j], array[i]];
         }
     }
+
+    sampleArray(array, size) {
+        const shuffled = [...array];
+        this.shuffleArray(shuffled);
+        return shuffled.slice(0, size);
+    }
+}
+
+export { City, Player, Board };
